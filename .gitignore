@@ -18,9 +18,17 @@ coverage/
 coverage.json
 .env
 
+# Remix IDE specific
+.deps/
+.states/
+*_metadata.json
+
 # Compiler outputs
 *.sol.js
-*_metadata.json
+
+# BUT KEEP all .sol files (they should be tracked)
+!*.sol
+!**/*.sol
 
 # IDE / Editor
 .vscode/
@@ -29,6 +37,10 @@ coverage.json
 *.swo
 *~
 .DS_Store
+.prettierrc.json
+
+# Git - Ignore nested git repositories
+**/.git/
 
 # Logs
 logs/
