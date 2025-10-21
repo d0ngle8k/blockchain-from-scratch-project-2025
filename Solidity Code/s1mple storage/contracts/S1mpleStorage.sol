@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.19;
+pragma solidity ^0.8.24;
 
 contract SimpleStorate{
     // gg
@@ -10,16 +10,7 @@ contract SimpleStorate{
         uint256 favNumbs;
         string name;
     }
-    // Person public myniqqa = Person (7, "CJ") {
-        
-    // }
-
-    // Person public mynigga = Person({favNumbs: 69, name: "Claude"});
-    // Person public cj = Person({favNumbs: 69, name: "Claude"});
-    // Person public claude = Person({favNumbs: 69, name: "Claude"});
     
-    // Person[add_your_value_here] public listOfPeople; // define a static array 
-
     Person[] public listOfPeople; // define a dynamic array
     mapping(string => uint256) public nameToFavorNumber;
 
